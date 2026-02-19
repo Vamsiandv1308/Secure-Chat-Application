@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Secure Steganographic Chat
 
 This workspace contains a prototype of a real-time chat that chains AES encryption, Diffie-Hellman key exchange, and LSB steganography to hide ciphertext inside an image before sending it over the wire.
@@ -65,3 +66,6 @@ The backend loads every user row on startup and keeps the federation in sync by 
 ## Notes
 - All state is kept in-memory for the prototype; production code should persist users, sessions, and messages securely.
 - Frontend assumes http://localhost:4000 backend; point VITE_BACKEND_URL to another address in .env if needed.
+=======
+# Secure-Chat-Application
+>>>>>>> e39bf36d5e033c39c31ae4223118b126a3e5f508
